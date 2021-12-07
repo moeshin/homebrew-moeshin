@@ -2,13 +2,13 @@ class AndroidBuildTools < Formula
   desc "Android SDK Build-Tools is a component of the Android SDK required for building Android apps"
   homepage "https://developer.android.com/studio/releases/build-tools"
   if OS.linux?
-    url "https://dl.google.com/android/repository/build-tools_r31-rc1-linux.zip"
-    sha256 "0771cd2712d4f99e8eb4a2f9c8acabc1a76554a12c7d0cce48a7279f416c02ae"
+    url "https://dl.google.com/android/repository/build-tools_r32-rc1-linux.zip"
+    sha256 "B2ED1180647E200E01FE46095B9713B0A26226D225C3F5E08BA6B9DA33620B0A"
   elsif
-    url "https://dl.google.com/android/repository/9dee0a2bc9f5fd4d8d328f3fa475fed8aba6faea.build-tools_r31-rc1-macosx.zip"
-    sha256 "cea7c7844a95935bd2dc7eb36dedee105424f1d0d89100fe4cf43349fe266510"
+    url "https://dl.google.com/android/repository/82ec85db1b6d346fbe2730553de2bb5a83e85941.build-tools_r32-rc1-macosx.zip"
+    sha256 "D110C345EB9FC85FA238DA6B93AE02A52147A34E0771735DDBA00204DB1E2BFC"
   end
-  version "31.0.0-rc1"
+  version "32.0.0-rc1"
   license "Apache-2.0"
 
   depends_on "openjdk@8"
