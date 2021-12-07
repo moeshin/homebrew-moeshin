@@ -11,8 +11,6 @@ class AndroidBuildTools < Formula
   version "31.0.0-rc1"
   license "Apache-2.0"
 
-  bottle :unneeded
-
   depends_on "openjdk@8"
 
   def install
@@ -25,7 +23,7 @@ class AndroidBuildTools < Formula
     bin.install_symlink libexec/"d8"
     bin.install_symlink libexec/"dexdump"
     bin.install_symlink libexec/"dx"
-    bin.install_symlink libexec/"lld"
+    bin.install_symlink libexec/"lld-bin/lld"
     bin.install_symlink libexec/"llvm-rs-cc"
     bin.install_symlink libexec/"mainDexClasses"
     bin.install_symlink libexec/"split-select"
