@@ -13,6 +13,11 @@ class AndroidBuildTools < Formula
 
   depends_on "openjdk@8"
 
+  livecheck do
+    url "https://dl.google.com/android/repository/repository2-1.xml"
+    regex(/<remotePackage path="build-tools;(.*?)">/)
+  end
+
   def install
     libexec.install Dir["*"]
     bin.install_symlink libexec/"aapt"
