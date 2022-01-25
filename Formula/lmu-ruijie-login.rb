@@ -1,8 +1,8 @@
 class LmuRuijieLogin < Formula
   desc "黎明职业大学-锐捷校园网网线自动登录"
   homepage "https://github.com/moeshin/lmu-ruijie-login"
-  url "https://github.com/moeshin/lmu-ruijie-login/archive/v1.0.0.tar.gz"
-  sha256 "f5ca1844ffca1fe854151cec97a384846c0e47573fc4a54ef1d7fcbe8fbbe604"
+  url "https://github.com/moeshin/lmu-ruijie-login/archive/v1.0.1.tar.gz"
+  sha256 "e5454c2db7331e039866e6738a494d4e1415c7fe9de1a5bc399470b5a36efab7"
   license "MIT"
   livecheck do
     url :homepage
