@@ -11,8 +11,6 @@ class AndroidBuildTools < Formula
   version "32.0.0-rc1"
   license "Apache-2.0"
 
-  depends_on "openjdk@8"
-
   livecheck do
     url "https://dl.google.com/android/repository/repository2-1.xml"
     regex(/<remotePackage path="build-tools;(.*?)">/)
