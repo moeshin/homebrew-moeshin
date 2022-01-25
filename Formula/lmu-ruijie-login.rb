@@ -21,7 +21,7 @@ class LmuRuijieLogin < Formula
     ln_sf cfg, prefix/"config.ini"
 
     log = File.absolute_path(var/"lmu-ruijie-login.log")
-    File.file?(log) || touc(log)
+    File.file?(log) || touch(log)
     ln_sf log, prefix/"log.txt"
 
     print <<~EOS
